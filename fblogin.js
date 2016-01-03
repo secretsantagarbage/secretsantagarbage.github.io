@@ -230,7 +230,7 @@
         console.log("DataToSend: "+dataToSend);
         FB.ui({
           method: 'send',
-          link: 'https://secretsantagarbage-benmirtchouk.c9users.io/result.php?data='+dataToSend,
+          link: 'http://secretsantagarbage.github.io/result.php?data='+dataToSend,
           to: WhoTo,
         });
     }
