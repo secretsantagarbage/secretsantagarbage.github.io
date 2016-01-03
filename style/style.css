@@ -1,0 +1,243 @@
+#content {
+    width: 90%;
+    background-color: #a7e4f2 ; 
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 100vh;
+}
+.subcontent {
+    background-color: white;
+    margin: 0 auto;
+    
+}
+html {
+    font-family: 'Questrial', sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 41px;
+    font-size: 70px;
+    padding-bottom: 0;
+    padding-top: 42px;
+}
+li {
+    font-size: 25px;
+    margin: 0 0 3px 0;
+
+}
+
+body {
+    margin: 0;
+    margin-top: -30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+#content {
+    width: 100%;
+    background-color: #a7e4f2;
+    margin: 0;
+    /* margin-top: 40px; */
+    height: auto;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.subcontent {
+    background-color: #9BCEF5;
+    margin: 0 auto;
+    
+}
+html {
+    font-family: 'Questrial', sans-serif;
+    /*background: #FFFFFF;/* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(#FFFFFF, #00A5BF);/* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(#FFFFFF, #00A5BF);/* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#FFFFFF, #00A5BF);/* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(#FFFFFF, #0289F0);/* Standard syntax (must be last) */
+    /* padding-bottom: 30px; */
+}
+h1 {
+    text-align: center;
+    padding: 41px;
+    font-size: 80px;
+    padding-bottom: 0;
+    color: white;
+    padding-top: 42px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 190px;
+    position: relative;
+    margin: 0 auto;
+    height: 195px;
+    display: block;
+    padding-top: 20px;
+}
+
+#description {
+    /* width: 50%; */
+    height: 250px;
+    padding-top: 20px;
+    background: #4092CC;
+    /* float: left; */
+}
+
+#logodiv {
+    /* float: right; */
+    /* width: 50%; */
+    /* height: 250px; */
+    /* padding: 10px 0px; */
+    /* position: absolute; */
+    /* background-color: #9BCEF5; */
+}
+
+ul {
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+p {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+div#facebooklogin {
+    text-align: center;
+    /* padding: 10px 0; */
+}
+.bold {
+    font-weight: bold;
+}
+
+#status {
+    padding-top: 10px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+
+#efficient {
+    background: #B4FFF1;
+    float: left;
+}
+
+#list {
+    background: #5F9BDA;
+    height: 165px;
+    overflow: scroll;
+    width: 50%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+
+#listul li {
+    line-height: 30px;
+}
+
+.myButton {
+	background-color: #5288D8;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #0dcfff;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: auto;
+	position: relative;
+	top: 11px;
+}
+.myButton:hover {
+	background-color:#00aeff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#logindiv {
+    display: none;
+}
+
+#list2 {
+    position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+    background: #41E2D2;
+    height: 165px;
+    overflow: scroll;
+}
+
+#list2 p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+input {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 8px 14px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -webkit-transform: rotateX(-5deg);
+  transform: rotateX(-5deg);
+  font-size: 16px;
+}
+
+p.uinfo {
+    margin: 20px;
+    font-size: 30px;
+}
+
+p.uinfo input {
+    margin-left: 15px;
+}
+
+img#santa {
+    width: 63px;
+    margin-bottom: -5px;
+}
+
+div#cutesanta {
+    width: 20px;
+    position: relative;
+    display:  block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+div#u_0_2 {
+    background: #FD6F6F;
+}

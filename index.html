@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="style/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link rel="icon"
+        type = "image/png"
+        href="secretsantalogo.png">
+  <!--<script src="jqwery.snow.min.js"></script>-->
+  <script>
+  $(function() {
+      $( "#datepicker" ).datepicker();
+  });
+  </script>
+  <title>Secret Santa Garabgeo</title>
+</head>
+
+<body>
+
+<script>
+   $(document).ready( function(){
+       $.fn.snow({ minSize: 20, maxSize: 30, newOn: 400, flakeColor: '#FFFFFF' });
+ });
+</script>
+
+<script src="fblogin.js"></script>
+    <div  id = "content">
+        <div class = "subtitle">
+        <h1>Secret Santa!</h1>
+          <div id = "logodiv">
+            <img id = "logo" src = "secretsantalogo.png">
+          </div>
+        <h2>Made by Anoushka, Ben, and Jeff :)</h2>
+
+          <div id = "description">
+            <h2>Log into Facebook and create your own Secret Santa list with all your friends!</h2>
+            <ul>
+              <li>Automatically generates Secret Santa list</li>
+              <li>Add any of your friends from Facebook</li>
+              <li>Set a due date to make sure nobody forgets to buy their presents!</li>
+            </ul>
+          </div>
+        
+          
+          <div id = "cutesanta">
+            <img id = "santa" src = "http://www.clipartlord.com/wp-content/uploads/2013/12/santa20.png">
+          </div>
+        </div>
+        
+        
+        <div id = "facebooklogin">
+          <fb:login-button scope="public_profile,email,user_friends,read_custom_friendlists" onlogin="checkLoginState();" autologoutlink="true"></fb:login-button>
+          
+          <div id="status">
+          </div>
+        </div>
+        
+        <div id = "time">
+          <p></p>
+          
+        </div>
+        
+        
+        
+        <div id = "logindiv">
+          <div id = "list">
+            <ul id = "listul">
+            </ul>
+          </div>
+          
+          <div id = "list2">
+            <p>People in your Secret Santa list:</p>
+            <ul id = "listul2">
+            </ul>
+          </div>
+          
+          <div id = "secretsantas">
+            <ul id = "secretsantaul">
+            </ul>
+          </div>
+          
+          <p style = "padding-top: 190px;" class = "uinfo">Budget: <input type="text" id="budget"></p>
+          <p class = "uinfo">Due Date: <input type="text" id="datepicker"></p>
+          <p class = "uinfo">Optional message: <input type="text" id="OptMessage"></p>
+          
+          
+          <button onClick = "Choose()" class = "myButton" type="button">Generate Secret Santa List!</button>
+        </div>
+        
+    </div>
+</body>
+</html>

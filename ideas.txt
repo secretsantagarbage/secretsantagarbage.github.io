@@ -1,0 +1,18 @@
+Names: 
+secretsan.ta
+
+Flow:
+    User logs in with facebook 
+    Create secret santa "game" or whatever the fuck it is
+        Input: 
+            Name of game
+            Name of group 
+            Due date 
+            Last date where you can leave the secret santa
+            Optional rules
+            Invite facebook friends
+            Option for creator to see who everyone has
+   Generate secret santas and send email/message to users who were signed up
+   Give option to users to leave secret and then regenerate by certain date
+   ayylmao
+   
